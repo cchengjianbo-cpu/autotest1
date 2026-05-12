@@ -1,0 +1,29 @@
+Started by user chengjianbo
+Running as SYSTEM
+Building in workspace F:\bm_api_test1
+[bm_api_test1] $ cmd /c call C:\WINDOWS\TEMP\jenkins11418234621053586109.bat
+
+F:\bm_api_test1>e:
+
+E:\>cd E:\.virtualenv\py3.12env\Scripts 
+
+E:\.virtualenv\py3.12env\Scripts>activete
+'activete' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+
+E:\.virtualenv\py3.12env\Scripts>f:
+
+F:\bm_api_test1>cd F:\bm_api_test1 
+
+F:\bm_api_test1>python run_test.py 
+'python' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+
+F:\bm_api_test1>exit 9009 
+Build step 'Execute Windows batch command' marked build as failure
+[bm_api_test1] $ C:\ProgramData\Jenkins\.jenkins\tools\ru.yandex.qatools.allure.jenkins.tools.AllureCommandlineInstallation\allure2.33.0\bin\allure.bat generate F:\bm_api_test1\allure-results -c -o F:\bm_api_test1\Outputs\44
+Report successfully generated to F:\bm_api_test1\Outputs\44
+Allure report was successfully generated.
+Creating artifact for the build.
+Artifact was added to the build.
+Finished: FAILURE
